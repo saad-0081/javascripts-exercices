@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Compteur de caractères</title>
+</head>
+
+<body class="p-8">
+    <textarea
+        id="message"
+        class="w-full p-2 border rounded"
+        rows="4"
+    ></textarea>
+    <p id="compteur" class="text-sm text-gray-600">
+        0 / 50
+    </p>
+    <button
+        id="envoyer"
+        class="px-4 py-2 bg-blue-600 text-white rounded disabled:opacity-50"
+        disabled
+    >
+        Envoyer
+    </button>
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Exercice DOM</title>
+</head>
+
+<body class="p-8 space-y-2">
+
+    <p class="note">Note A</p>
+    <p class="note">Note B</p>
+    <p class="note">Note C</p>
+
+    <label>
+        <input type="radio" name="theme" value="clair" checked>
+        Clair
+    </label>
+
+    <label>
+        <input type="radio" name="theme" value="sombre">
+        Sombre
+    </label>
+
+    <div class="space-x-2">
+        <button id="surligner" class="px-4 py-2 bg-gray-200 rounded">
+            Surligner
+        </button>
+
+        <button id="lire" class="px-4 py-2 bg-gray-200 rounded">
+            Lire le thème
+        </button>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
+
