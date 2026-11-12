@@ -1,0 +1,14 @@
+<body class="p-8">
+  <form id="formulaire" class="space-y-2" novalidate>
+    <input name="nom" placeholder="Nom" class="border p-2 block" />
+    <input name="prix" type="number" placeholder="Prix" class="border p-2 block" />
+    <select name="categorie" class="border p-2 block">
+      <option value="">Catégorie</option>
+      <option>Informatique</option>
+      <option>Maison</option>
+    </select>
+    <p id="erreur" class="text-red-600 text-sm"></p>
+    <button class="px-4 py-2 bg-blue-600 text-white rounded">Ajouter</button>
+  </form>
+  <ul id="liste" class="mt-4 space-y-1"></ul>
+</body>

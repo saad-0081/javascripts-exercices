@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Filtrer les produits</title>
+</head>
+
+<body class="p-8">
+    <div class="flex flex-wrap gap-2 mb-4">
+        <button id="tous" class="px-3 py-2 bg-gray-200 rounded">
+            Tous
+        </button>
+        <button id="stock" class="px-3 py-2 bg-gray-200 rounded">
+            En stock
+        </button>
+        <button id="petitPrix" class="px-3 py-2 bg-gray-200 rounded">
+            Moins de 200 DH
+        </button>
+        <button id="combo" class="px-3 py-2 bg-gray-200 rounded">
+            En stock et moins de 200 DH
+        </button>
+    </div>
+    <ul id="liste" class="space-y-2"></ul>
+    <script src="main.js"></script>
+</body>
+</html>
